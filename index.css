@@ -13,7 +13,7 @@ section{
 }
 section .header{
     grid-column: 1 / span 2;
-    background: linear-gradient(90deg, #7cb9d3, #3b82f6);
+    background: linear-gradient(90deg, #c478ba, #df72bf);
     line-height: 50px;
     color: white;
 
@@ -22,15 +22,15 @@ section .header{
     align-items: center;
 }
 section .menu{
-    background: #053074;
+    background: #1e293b;
     color: white;
 }
 section .workspace{
-    background: #f2f4f6ef;
+    background: #f2f4f6;
 }
 section .footer{
     grid-column: 1 / span 2;
-    background: linear-gradient(90deg, #11a0cb57, #3b82f6);
+    background: linear-gradient(90deg, #9e578f, #f63bc7);
     font-size: 8pt;
     line-height: 30px;
     color: white;
@@ -79,6 +79,12 @@ section .menu nav ul li img{
 section .menu nav ul li.active,
 section .menu nav ul li:hover{
     cursor: pointer;
-    background: #a3b6b7;
-    border-left: 5px solid rgb(30, 169, 255);
+    background: #334155;
+    border-left: 5px solid rgb(160, 202, 216);
+}
+section .workspace iframe{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: white;
 }
